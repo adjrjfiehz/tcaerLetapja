@@ -1,0 +1,501 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* Common CSS*/
+
+.ajpatel_primary_color {
+    color: #0083c3;
+}
+
+.font-white {
+    color: #FFFFFF;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-pointer:hover {
+    font-weight: 600;
+}
+
+.breadcrumb-wrapper {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.ajpatel-table-wrapper {
+    padding-top: 15px;
+}
+
+.btn-ajpatel {
+    background-color: #0083c3 !important;
+    color: #fff;
+}
+
+.ajpatel-loader {
+    display: inline-block;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    border-top: 4px solid #0083c3;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+    margin-right: 10px;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-msg {
+    vertical-align: text-bottom;
+}
+
+.ajpatel-error {
+    color: red;
+}
+
+.delete-button {
+    margin-left: 10px;
+}
+
+
+/* Login */
+
+.login_wrapper .col .login-container-wrapper {
+    border: 3px solid #f1f1f1;
+}
+
+.login_wrapper .login_container {
+    width: 100%;
+}
+
+.login_wrapper .col input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login_wrapper .col button {
+    background-color: #17a2b8;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login_wrapper h1 {
+    text-align: center;
+}
+
+.login_wrapper .col button:hover {
+    opacity: 0.8;
+}
+
+.login-container {
+    padding: 16px;
+}
+
+.login_wrapper {
+    padding-top: 40px;
+}
+
+.login_wrapper .col .login-container .center {
+    padding-bottom: 20px;
+}
+
+.login_wrapper .col span.psw {
+    float: right;
+}
+
+.login-btn {
+    background: #0083c3 !important;
+}
+
+
+/* Header */
+
+.header_wrapper .header-row {
+    width: 100%;
+}
+
+.header_wrapper .menu_ajpatel {
+    background-color: #0083c3 !important;
+}
+
+.header_wrapper .nav-link:hover {
+    color: #fff;
+    font-weight: 600;
+}
+
+.header_wrapper .logout-wrapper {
+    position: relative;
+}
+
+.header_wrapper .logout-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header_wrapper .logout-container span:hover {
+    font-weight: 600;
+}
+
+.header_wrapper .link-container {
+    padding-left: 100px;
+}
+
+.header_wrapper .nav-link {
+    padding: 15px !important;
+}
+
+
+/* Home */
+
+.home-wrapper .welcome-text {
+    width: 100%;
+    height: 250px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+
+/* Product List */
+
+.productlist-wrapper .productlist-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.productlist-wrapper .productlist-container {
+    margin: 0;
+}
+
+.productlist-wrapper .productlist-container .col-sm-11 .product_list .product_name {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.productlist-wrapper .productlist-container .col-sm-11 .product_list .product_add {
+    float: right;
+    position: relative;
+}
+
+.productlist-wrapper .productlist-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Party List */
+
+.partylist-wrapper .partylist-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.partylist-wrapper .partylist-container {
+    margin: 0;
+}
+
+.partylist-wrapper .partylist-container .col-sm-11 .party_list .party_name {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.partylist-wrapper .partylist-container .col-sm-11 .party_list .party_add {
+    float: right;
+    position: relative;
+}
+
+.partylist-wrapper .partylist-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Sales List */
+
+.saleslist-wrapper .saleslist-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.saleslist-wrapper .saleslist-container {
+    margin: 0;
+}
+
+.saleslist-wrapper .saleslist-container .col-sm-11 .sales_list .sales_name {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.saleslist-wrapper .saleslist-container .col-sm-11 .sales_list .sales_add {
+    float: right;
+    position: relative;
+}
+
+.saleslist-wrapper .saleslist-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Product View */
+
+.productview-wrapper .productview-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.productview-wrapper .productview-container {
+    margin: 0;
+}
+
+.productview-wrapper .productview-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.productview-wrapper .productview-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Product Create */
+
+.productcreate-wrapper .productcreate-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.productcreate-wrapper .productcreate-container {
+    margin: 0;
+}
+
+.productcreate-wrapper .productcreate-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.productcreate-wrapper .productcreate-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Party View */
+
+.partyview-wrapper .partyview-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.partyview-wrapper .partyview-container {
+    margin: 0;
+}
+
+.partyview-wrapper .partyview-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.partyview-wrapper .partyview-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Party Create */
+
+.partycreate-wrapper .partycreate-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.partycreate-wrapper .partycreate-container {
+    margin: 0;
+}
+
+.partycreate-wrapper .partycreate-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.partycreate-wrapper .partycreate-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Company View */
+
+.company-wrapper .company-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.company-wrapper .company-container {
+    margin: 0;
+}
+
+.company-wrapper .company-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.company-wrapper .company-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+
+/* Sales Create */
+
+.salescreate-wrapper .salescreate-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.salescreate-wrapper .salescreate-container {
+    margin: 0;
+}
+
+.salescreate-wrapper .salescreate-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.salescreate-wrapper .salescreate-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+.salescreate-wrapper .salescreate-container .party-wrapper {
+    border: 1px solid #f1f1f1;
+    padding: 15px 15px 0;
+    margin-bottom: 15px;
+}
+
+.salescreate-wrapper .salescreate-container .cgst-column,
+.salescreate-wrapper .salescreate-container .sgst-column {
+    width: 8%;
+}
+
+.salescreate-wrapper .salescreate-container .quantity-column,
+.salescreate-wrapper .salescreate-container .hsn-column {
+    width: 12%;
+}
+
+.salescreate-wrapper .salescreate-container .rate-column,
+.salescreate-wrapper .salescreate-container .amount-column {
+    width: 13%;
+}
+
+.salescreate-wrapper .salescreate-container .btn-delete {
+    background: #f8d7da;
+}
+
+.salescreate-wrapper .salescreate-container .table tbody td {
+    padding: 0;
+}
+
+.salescreate-wrapper .salescreate-container .table tbody .id-td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Sales View */
+
+.salesview-wrapper .salesview-container .col-sm-11 {
+    margin: 0 auto;
+    border: 3px solid #f1f1f1;
+    float: left;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.salesview-wrapper .salesview-container {
+    margin: 0;
+}
+
+.salesview-wrapper .salesview-container .header-card {
+    border-bottom: 1px dotted #f1f1f1;
+    min-height: 45px;
+    margin-bottom: 5px;
+}
+
+.salesview-wrapper .salesview-container .alert {
+    width: 90%;
+    margin: 0;
+}
+
+.salesview-wrapper .salesview-container .party-wrapper {
+    border: 1px solid #f1f1f1;
+    padding: 15px 15px 0;
+    margin-bottom: 15px;
+}
